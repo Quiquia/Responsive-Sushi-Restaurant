@@ -1,0 +1,132 @@
+.footer {
+  position: relative;
+  padding-block: 3rem 2rem;
+  overflow: hidden;
+}
+
+.footer-container {
+  row-gap: 3rem;
+}
+
+.footer-logo {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: var(--title-color);
+  font-family: var(--title-font);
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 1rem;
+  transition: color 0.3s;
+}
+
+.footer-logo img {
+  width: 25px;
+}
+
+.footer-logo:hover {
+  color: var(--first-color);
+}
+
+.footer-description,
+.footer-link,
+.footer-information {
+  font-size: var(--small-font-size);
+}
+
+.footer-content,
+.footer-links {
+  display: grid;
+}
+
+.footer-content {
+  grid-template-columns: repeat(2, max-content);
+  gap: 2.5rem;
+}
+
+.footer-title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1.5rem;
+}
+
+.footer-links {
+  row-gap: 0.5rem;
+}
+
+.footer-link {
+  color: var(--text-color);
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: var(--first-color);
+}
+
+.footer-social {
+  display: flex;
+  column-gap: 1.25rem;
+}
+
+.footer-social-link {
+  color: var(--first-color);
+  font-size: 1.25rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.footer-social-link:hover {
+  color: var(--first-color-alt);
+  transform: translateY(-2px);
+}
+
+.footer-onion,
+.footer-spinach {
+  width: 30px;
+  position: absolute;
+}
+
+.footer-onion {
+  top: 7.5rem;
+  right: 5rem;
+  transform: rotate(-45deg);
+}
+
+.footer-spinach {
+  bottom: 8rem;
+  left: 3rem;
+  transform: rotate(30deg);
+}
+
+.footer-leaf {
+  width: 100px;
+  opacity: 0.2;
+  position: absolute;
+  bottom: 6rem;
+  right: -2rem;
+  transform: rotate(-15deg);
+}
+
+.footer-info,
+.footer-card {
+  display: flex;
+}
+
+.footer-info {
+  margin-top: 6.5rem;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.footer-card {
+  column-gap: 1rem;
+  justify-content: center;
+}
+
+.footer-card img {
+  width: 35px;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}

@@ -1,0 +1,49 @@
+.recently {
+  position: relative;
+}
+
+.recently-container {
+  row-gap: 4rem;
+}
+
+.recently-data {
+  position: relative;
+  text-align: center;
+}
+
+.recently-description {
+  margin-bottom: 2rem;
+}
+
+.recently-data-img {
+  width: 25px;
+  position: absolute;
+  top: 3.5rem;
+  right: 1.5rem;
+  transform: rotate(30deg);
+}
+
+.recently-img {
+  width: 300px;
+  justify-self: center;
+}
+
+.recently-leaf-1,
+.recently-leaf-2 {
+  position: absolute;
+  opacity: 0.2;
+}
+
+.recently-leaf-1 {
+  width: 80px;
+  top: 17rem;
+  left: -1rem;
+  transform: rotate(15deg);
+}
+
+.recently-leaf-2 {
+  width: 40px;
+  right: -1rem;
+  bottom: 12rem;
+  transform: rotate(-30deg);
+}

@@ -1,0 +1,36 @@
+.about {
+  position: relative;
+}
+
+.about-container {
+  row-gap: 3rem;
+}
+
+.about-data {
+  text-align: center;
+}
+
+.about-title img {
+  width: 30px;
+}
+
+.about-title div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.about-img {
+  width: 300px;
+  justify-self: center;
+}
+
+.about-leaf-1 {
+  width: 100px;
+  opacity: 0.2;
+  position: absolute;
+  right: -1.5rem;
+  bottom: 11rem;
+  transform: rotate(-15deg);
+}
